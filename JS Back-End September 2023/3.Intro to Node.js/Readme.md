@@ -8,4 +8,4 @@ NPM allows quick access to external modules
 
 Web Servers transfer ressources to the Client
 
-The Request Response wrappers
+The Request/ Response wrappers
