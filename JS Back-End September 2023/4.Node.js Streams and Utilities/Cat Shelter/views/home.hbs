@@ -1,0 +1,28 @@
+<h1>Cat Shelter</h1>
+<form method='get'>
+    <input name='search' type='text' value='{{search}}' />
+    <button type='submit'>Search</button>
+</form>
+
+<section class='cats'>
+    {{#if cats}}
+        <ul>
+            {{#each cats}}
+                <li>
+                    <img src={{image}} alt='Black Cat' />
+                    <h3>Name: {{name}}</h3>
+                    <p><span>Breed: </span>{{breed}}</p>
+                    <p>
+                        <span>Description: </span>{{description}}
+                    </p>
+                    <ul class='buttons'>
+                        <li class='btn edit'><a href='/cats/edit/{{_id}}'>Change Info</a></li>
+                        <li class='btn delete'><a href='/cats/shelter/{{_id}}'>New Home</a></li>
+                    </ul>
+                </li>
+            {{/each}}
+        </ul>
+    {{else}}
+        <p>No cats in the shelter yet!</p>
+    {{/if}}
+</section>
