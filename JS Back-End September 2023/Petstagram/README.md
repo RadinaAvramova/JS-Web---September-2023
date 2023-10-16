@@ -70,3 +70,32 @@
 23. Error handler
     - add 404 page
     - redirect missing route to 404 page
+    - add error message extractor
+24. Show error notification
+    - add error container to main layout
+    - show error container conditionally
+    - pass error to render
+25. Automatically login after register (optional)
+26. Add photo model
+27. Add folder photos in views with create file
+28. Add create page 'add photo'
+    - modify create.hbs
+    - add method 'POST' in the form
+    - add name atributes in the form
+    - fix addPhoto path in main.hbs 
+29. Add photoController
+    - import photoController in routes and use 
+30. Modify catalog template and route in photoController
+31. Create getAll method for populate data
+32. Details page
+    - conditionality for text area for post comments
+33. Delete functionality
+34. Edit page
+35. Add comments to post
+36. Create profile page
+    - fix path in main layout
+    - add route in the home controller
+    - render profile page with current user data
+37. Add validation in user and photo models
+38. Routes guards in home and photo controllers
+    - import and use isAuth middleware
