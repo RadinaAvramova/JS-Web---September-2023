@@ -1,36 +1,30 @@
 # JS Web-September 2023
 
-JavaScript е уникален с това, че позволява прилагането на един програмен език и едни и същи инструменти за back-end и front-end елементите на дадено приложение. В модула "JS Web" се запознах с разработката на сървърни приложения с Node.js и Express.js, както и с някои от най-популярните технологии в днешно време за изграждане на потребителски интерфейс. В модула обърнахме внимание на архитектурата и структурирането на Single Page Applications и извличането на данни от REST услуга чрез заявки. По време на обучението разбрах как да създам сървър с Node.js, научих се на сървър-клиент архитектурата и как да правя лесни и бързи data-driven web приложения с Node.js, Express.js и MongoDB, използвайки съвременни похвати и инструменти. Изучих изгледи и шаблони за визуализация на данни (templates), модели, компоненти, свързване на данни (data binding), работа с много изгледи, рутиране (routing), извличане на данни от REST услуга и много други. Модулът наблягаше на много практически упражнения, чрез които се въвлякохме в реални проекти за изработка на уеб страници, имплементация на фрагменти от сайтове и създаване на цялостни модерни уеб сайтове с добра визия, съвременна структура и мобилна поддръжка.
+JavaScript is unique in that it allows the same programming language and tools to be applied to the back-end and front-end elements of an application. In the JS Web module, students will learn about developing server-side applications with Node.js and Express.js, as well as some of today's most popular technologies for building user interfaces. The module will also focus on the architecture and structuring of Single Page Applications and retrieving data from a REST service using queries. During the training, students will understand how to create a server with Node.js, learn the server-client architecture and how to make easy and fast data-driven web applications with Node.js, Express.js and MongoDB using modern techniques and tools. They learn data views and templates, models, components, data binding, multi-view handling, routing, extracting data from a REST service, and much more. The module emphasizes many hands-on exercises that will engage students in real-world web page development projects, implementing snippets of websites, and creating complete modern websites with good design, modern structure, and mobile support.
 
+Acquired skills :
 
-Умения, които придобих:
+  - Creating an MVC architecture
 
--Използване Web Server
+  - Creating applications with Express and Handlebars
 
--Работа по HTTP протокола
+  - Working with non-relational databases
 
--Сървърни приложения с Node.JS
+  - Working with server applications with Node.JS
 
--Работа с нерелационни бази данни
+  - Working with the HTTP protocol
 
--Създаване на приложения с Express и Handlebars
+  - Using Web Server
 
--Създаване на MVC архитектура
+  - Working with remote REST services
 
--Работа с отдалечени REST услуги
+  - Working with templates and routing
 
--Работа с шаблони и рутиране
+  - Working with component-based applications
 
--Компонентно-базирани приложения
+  - Using Single Page Application
 
--Какво е Single Page Applicaion
+  - Basic knowledge of React and JSX
 
--Основни познания по React и JSX
-
--Клиентски приложения с React
-
-
-
-Преподавател: Ивайло Папазов
-
+  - Developing client applications with React
 
