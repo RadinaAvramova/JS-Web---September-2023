@@ -1,0 +1,84 @@
+.search {
+
+  text-align: center;
+  min-height: 592px;
+}
+
+.search h2 {
+  text-align: center;
+  margin: 5px;
+  color: mediumvioletred;
+  text-shadow: 2px 2px antiquewhite;
+}
+
+.search-form {
+  padding-top: 20px;
+  text-align: center;
+  background: url('/Images/feya.jpg'), no-repeat, center;
+  background-size: cover;
+  height: 300px;
+}
+
+.search input {
+  margin-bottom: 6px;
+ 
+  text-align: center;
+  border:#c19595 2px;
+  border-radius: 3px;
+  height: 38px;
+  width: 400px;
+}
+
+.search button,
+.details-btn {
+
+  background: antiquewhite;
+  color: mediumvioletred;
+  width: 17%;
+  border: 0;
+  padding: 12px;
+  border-radius: 3px;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 5px 2px 8px 5px #c19595;
+
+}
+
+.search-wrapper button:hover {
+  background-color: mediumvioletred;
+  font-size: 20px;
+  border: 0;
+  color: antiquewhite;
+  cursor: pointer;
+}
+
+.sofa-wrapper .sofa {
+  padding: 10px, 10px;
+  text-align: center;
+  border-style: groove;
+  border-radius: 5px;
+  margin: 0 5px 0 15px;
+}
+.sofa-wrapper li:not(:last-child) {
+
+  padding-right: 0px;
+ 
+}
+.sofa-wrapper img {
+  width: 180px;
+}
+
+.color {
+  display: inline-block;
+}
+
+.category select {
+  padding: 6px ;
+  text-align: center;
+  border: 0;
+  width: 400px;
+  margin-bottom: 10px;
+  border-radius: 3px;
+  height: 38px;
+  width: 400px;
+}

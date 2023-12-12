@@ -1,0 +1,56 @@
+
+.catalog {
+    min-height: 585px;
+    text-align: center;
+    display: block;
+    color: mediumvioletred;
+    font-family: "PT Serif", serif;
+    padding: 5px 5px;
+   
+  }
+  .catalog ul{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .catalog li {
+   
+    border-style:groove;
+    border-radius: 5px;
+    text-align: center;
+    width: 320px;
+    height: 380px;
+    padding: 5px 5px ;
+    margin: 5px 5px;
+  }
+  
+  .catalog  img {
+  
+    height: 300px;
+    width: 280px;
+  }
+  .catalog a {
+    color: mediumvioletred;
+  }
+  .catalog h3{
+   margin:5px auto;
+
+  display: block;
+ 
+  }
+  
+  .details-btn{
+      
+    background: antiquewhite;
+    color: mediumvioletred;
+    width: 17%;
+    border: 0;
+    padding: 5px;
+    border-radius: 3px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 5px 2px 8px 5px #c19595;
+  
+  }
+  
