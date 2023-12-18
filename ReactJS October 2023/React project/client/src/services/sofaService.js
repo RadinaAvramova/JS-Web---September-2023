@@ -30,7 +30,7 @@ export const edit = async (sofaId, sofaData) => {
 export const remove = async (sofaId) => request.del(`${baseUrl}/${sofaId}`);
 
 
-export const getLatestBlinds = async () => {
+export const getLatestSofas = async () => {
 
     const result = await request.get(`${baseUrl}?sortBy=_createdOn%20desc&offset=0&pageSize=3`);
 
