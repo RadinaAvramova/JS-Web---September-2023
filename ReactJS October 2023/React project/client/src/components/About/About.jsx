@@ -10,16 +10,16 @@ export default function About() {
             </p>
             <img src="/Images/2.jpg" alt="sofas" />
             <h3>Types of internal sofas: </h3>
-            { <div>
+             <div>
                 <span>Traditional Sofa, </span>
                 <span>Camelback Sofa, </span>
                 <span>Chesterfield Sofa, </span>
                 <span>Daybed, </span>
                 <span>English Roll Arm Sofa </span>
-                {/* <span>Knole Sofa</span>
-                <span>Contemporary Sofas </span> */}
+                <span>Knole Sofa</span>
+                <span>Contemporary Sofas </span>
 
-            </div> }
+            </div> 
 
         </section>
     )
