@@ -69,7 +69,7 @@ export default function Search() {
                     <h2>Latest sofas</h2>
 
                     <div id="search-container">
-                        <ul className={styles["blind-wrapper"]}>
+                        <ul className={styles["sofa-wrapper"]}>
                             {latestSofas.map(sofa => <SofaCard key={sofa._id} {...sofa} />)}
                             {!latestSofas.length && <h2>No sofas yet...</h2>}
                         </ul>
