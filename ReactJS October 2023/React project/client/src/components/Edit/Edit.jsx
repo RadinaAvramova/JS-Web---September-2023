@@ -71,10 +71,10 @@ export default function Edit() {
         const formErrors = validateForm(productDetails);
         setErrors(formErrors);
         if (Object.keys(formErrors).length === 0) {
-            onEditBlindSubmit(productDetails)
+            onEditSofaSubmit(productDetails)
         }
     }
-    const onEditBlindSubmit = (productDetails) => {
+    const onEditSofaSubmit = (productDetails) => {
         sofaService.edit(sofaId, productDetails)
             .then(result => {
                 setProductDetails(result)
